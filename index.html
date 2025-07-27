@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>未央筆記官網</title>
+</head>
+<body>
+    <!-- nav section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark py-3 sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <h2 class="text-white pt-1">未央筆記網站</h2>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#hero">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">服務</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">特色</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">筆記</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">團隊</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">部落格</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">聯絡</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-primary btn2 ms-2" onclick="alert('這是一個demo網站，連結僅供展示用途')">立即購買</button>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- hero section -->
+      <div id="hero" class="hero vh-100 d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 mx-auto text-center">
+                    <h1 class="display-4 text-white">北一女學霸筆記</h1>
+                    <p class="text-white my-3">蝦皮上熱銷的「全彩印北一女學測筆記」，系統化地整理歸納大範圍的內容，有利於未來提取記憶，長期下來也能練習大腦的反應速度。無論是應對校園課業或日常生活，筆記都是一項重要的工具，幫助提升學習效率！</p>
+                <a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')" class="btn btn-primary me-2">立即購買</a>
+                <a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')" class="btn btn-outline-light">合作聯繫</a>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- Service section -->
+      <section id="services">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 mx-auto text-center">
+              <h6 class="text-primary">SUBJECT</h6>
+              <h1>筆記種類</h1>
+              <p>從會考到學測，從北一女到建中，明星高中的學長姐們用最精華的筆記，帶給你考試學習最順利的路徑。</p>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-lg-4 col-sm-6">
+              <div class="service card-effect">
+                <div class="iconbox">
+                  <i class="fa-solid fa-language"></i>
+                </div>
+                <h5 class="mt-4 mb-2">國文</h5>
+                <p>從古文三十到形音義，超越搶救國文大作戰的重點整理，讓你搞懂考試真正重點精華。</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="service card-effect">
+                <div class="iconbox">
+                  <i class="fa-solid fa-language"></i>
+                </div>
+                <h5 class="mt-4 mb-2">英文</h5>
+                <p>超好用的片語佳句、寫作模板、單字難題筆記，都是絕對重點，全部打包！</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="service card-effect">
+                <div class="iconbox">
+                  <i class="fa-solid fa-calculator"></i>
+                </div>
+                <h5 class="mt-4 mb-2">數學</h5>
+                <p>從多項式到排列組合，你需要的不只是死背公式，是更詳細精美的錯題、觀念整理。</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="service card-effect">
+                <div class="iconbox">
+                  <i class="fa-solid fa-khanda"></i>
+                </div>
+                <h5 class="mt-4 mb-2">地理、歷史、公民</h5>
+                <p>誰說社會就是背多分？無聊的文字需要用漂亮的手繪地圖、表格，更科學化的吸收。</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="service card-effect">
+                <div class="iconbox">
+                  <i class="fa-solid fa-vial-circle-check"></i>
+                </div>
+                <h5 class="mt-4 mb-2">化學</h5>
+                <p>化學可不是只有週期表，該怎麼理解分子式背後的邏輯結構，是學霸跟你的差距。</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="service card-effect">
+                <div class="iconbox">
+                  <i class="fa-solid fa-atom"></i>
+                </div>
+                <h5 class="mt-4 mb-2">物理、生物、地科</h5>
+                <p>理組也是藉由一步一步推導，堆疊資訊才能夠掌握知識的，厚實的筆記全都是血淚。</p>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+      </section>
+
+      <!-- Features section -->
+      <section id="features" class="row py-0 bg-light">
+        <div class="col-lg-6 col-img"></div>
+        <div class="col-lg-6">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 pt-4 offset-md-1">
+                <h6 class="text-primary">為什麼要買榜首筆記？</h6>
+                <h1>設定學習計畫，一勞永逸</h1>
+                <p></p>
+
+                <div class="feature d-flex mt-5">
+                  <div class="iconbox me-3">
+                    <i class="fa-sharp fa-regular fa-clock"></i>
+                  </div>
+                  <div>
+                    <h5>學習高效率</h5>
+                    <p>人生的計畫安排，在於執行效率</p>
+                  </div>
+                </div>
+
+                <div class="feature d-flex mt-5">
+                  <div class="iconbox me-3">
+                    <i class="fa-solid fa-pen"></i>
+                  </div>
+                  <div>
+                    <h5>毅力展現</h5>
+                    <p>最可怕的不是智商差距，而是努力的份量壓制</p>
+                  </div>
+                </div>
+
+                <div class="feature d-flex mt-5">
+                  <div class="iconbox me-3">
+                    <i class="fa-solid fa-tree"></i>
+                  </div>
+                  <div>
+                    <h5>前車之鑑</h5>
+                    <p>前人種樹後人乘涼，根據整理好的錯誤內容，直接完美避開雷點！</p>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Project section -->
+      <section id="projects">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8 mx-auto text-center">
+              <h6 class="text-primary">筆記預覽</h6>
+              <h1>各科筆記預覽</h1>
+              <p>從會考到學測，從北一女到建中，明星高中的學長姐們用最精華的筆記，帶給你考試學習最順利的路徑。</p>
+            </div>
+          </div>
+
+          <div class="row g-4 ml50">
+            <div class="col-lg-4 col-sm-6">
+              <div class="project">
+                <img src="https://cf.shopee.tw/file/7cc509c5e1037e1a86de551f174b6afc" alt="北一女筆記 - 高中生物+化學全">
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white">《北一女筆記》高中生物+化學全（適用學測、分科測驗、含選修）</h4>
+                  <h6 class="text-white">筆記創作者：未秧Winter</h6>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <div class="project">
+                <img src="https://cf.shopee.tw/file/96581b225e4db19d9703dd2a532ef297_tn" alt="最強北一女 - 國中會考地理歷史">
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white">《最強北一女》國中會考滿分｜地理、歷史（全）</h4>
+                  <h6 class="text-white">筆記創作者：未秧Winter</h6>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <div class="project">
+                <img src="https://cf.shopee.tw/file/730d09b37f18d0f2150b54df3852d2f9_tn" alt="陽明交大自然筆記">
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white">111高中學測陽明交大！自然筆記最強新代表！</h4>
+                  <h6 class="text-white">筆記創作者：詹詹</h6>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <div class="project">
+                <img src="https://cf.shopee.tw/file/e742a95f8ded9f7b7ab76b3e5ac237fe_tn" alt="112最新國中會考全科筆記">
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white">112最新國中會考全科筆記｜北一女建中團隊審定6冊</h4>
+                  <h6 class="text-white">筆記創作者：PeakNotes 團隊</h6>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <div class="project">
+                <img src="https://cf.shopee.tw/file/d3f4ae47dd09ab51cf88596d376362f2_tn" alt="最完整頂大筆記 - 國中地理歷史公民">
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white">《最完整頂大筆記》國中｜地理、歷史、公民（第一冊）</h4>
+                  <h6 class="text-white">筆記創作者：P萱</h6>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <div class="project">
+                <img src="https://cf.shopee.tw/file/b5df7e217cfe67be5f4fdd76f8796d5e_tn" alt="最熱銷頂大筆記 - 國中歷史">
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white">《最熱銷頂大筆記》國中｜歷史（全）（考前衝刺精華）</h4>
+                  <h6 class="text-white">筆記創作者：Yanone</h6>
+                </div>
+              </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- team section -->
+      <section id="team" class="bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 mx-auto text-center">
+              <h6 class="text-primary">成員介紹</h6>
+              <h1>筆記團隊</h1>
+              <p>Peaknotes 頂尖學霸筆記共享、學習儀式感打造、深度學習內容製作</p>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-lg-3 col-sm-6 text-center">
+              <div class="team-member card-effect">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="未央Winner 個人照片">
+              <h5 class="mb-0 mt-4">未央Winner</h5>
+              <p>北一女學霸</p>
+              <div class="social-icons">
+                <a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 text-center">
+              <div class="team-member card-effect">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="詹詹 個人照片">
+              <h5 class="mb-0 mt-4">詹詹</h5>
+              <p>陽明交大學霸</p>
+              <div class="social-icons">
+                <a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 text-center">
+              <div class="team-member card-effect">
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="P萱 個人照片">
+              <h5 class="mb-0 mt-4">P萱</h5>
+              <p>頂大學霸</p>
+              <div class="social-icons">
+                <a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 text-center">
+              <div class="team-member card-effect">
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Yanone 個人照片">
+              <h5 class="mb-0 mt-4">Yanone</h5>
+              <p>頂大學霸</p>
+              <div class="social-icons">
+                <a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+              </div>
+            </div>
+          </div>
+         
+          </div>
+        </div>
+      </section>
+
+      <!-- blog section -->
+      <section id="blog" class="bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 mx-auto text-center">
+              <h6 class="text-primary">部落格文章</h6>
+              <h1>文章分享</h1>
+              <p>紀錄一切成長的過程，
+                任何悲傷或豐收，都是價值。</p>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-4 d-flex1">
+              <div class="blog-card card-effect">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="十八歲我很平凡文章配圖">
+                <h5 class="mb-0 mt-4">
+                  <a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')">十八歲，我很平凡</a>
+                </h5>
+                <p>小時候我最常在餐桌上被祖母罵，說我不能在長輩動筷子前先偷吃、說我不能剩任何一粒飯在碗中、說我不能吃空心菜只夾葉子不夾梗。</p>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex1">
+              <div class="blog-card card-effect">
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="老闆可以買嗎文章配圖">
+                <h5 class="mb-0 mt-4">
+                  <a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')">「老闆，可以買嗎？」</a>
+                </h5>
+                <p>我常經過這，老闆也每天都在。在巷子口、在麵攤前，在四季陽光都照得到的一方溫暖；我總著迷，多看他幾眼，因為這樣陽光才能看見我。</p>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex1">
+              <div class="blog-card card-effect">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="大人的世界文章配圖">
+                <h5 class="mb-0 mt-4">
+                  <a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')">大人的世界</a>
+                </h5>
+                <p>真的跨到大人的世界後，才會相信大人說的，學生時代是最美好的，未來還有無限殘酷與寒涼，世界就是這樣，大到你無法想像，大到你根本就不敢相信，但你一定要堅強與勇敢</p>
+              </div>
+            </div>
+          </div>
+
+       
+          
+          </div>
+        </div>
+      </section>
+
+      <!-- contact section -->
+      <section id="contact" class="bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 mx-auto text-center">
+              <h6 class="text-primary">聯絡我們</h6>
+              <h1>商業合作</h1>
+              <p>商業夥伴有任何合作討論，歡迎聯繫我們，來完成更好的世界。</p>
+            </div>
+          </div>
+
+        <form action="" class="row g-3 justify-content-center">
+          <div class="col-md-5">
+            <input type="text" class="form-control" placeholder="輸入姓名">
+          </div>
+          <div class="col-md-5">
+            <input type="text" class="form-control" placeholder="輸入信箱">
+          </div>
+          <div class="col-md-10">
+            <input type="text" class="form-control" placeholder="輸入主題">
+          </div>
+          <div class="col-md-10">
+            <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="輸入訊息"></textarea>
+          </div>
+          <div class="col-md-10 d-grid">
+            <button class="btn btn-primary">聯繫</button>
+          </div>
+        </form>
+       
+          
+          </div>
+        </div>
+      </section>
+
+      <!-- footer section -->
+      <footer>
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <h2 class="text-white">未央筆記網站</h2>
+              </div>
+              <div class="col-md-2">
+                <h5 class="text-white">品牌</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')">關於</a></li>
+                  <li><a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')">服務</a></li>
+                  <li><a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')">人員</a></li>
+
+                </ul>
+              </div>
+              <div class="col-md-2">
+                <h5 class="text-white">更多</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')">問與答</a></li>
+                  <li><a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')">隱私權政策</a></li>
+                  <li><a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')">保證</a></li>
+                  <li><a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')">購買</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h5 class="text-white">資訊</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')">Address: 2715 Ash Dr. San Jose, South</a></li>
+                  <li><a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')">Dakota 83475</a></li>
+                  <li><a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')">shincode0712@gmail.com</a></li>
+                  <li><a href="#" onclick="alert('這是一個demo網站，連結僅供展示用途')">Phone: 111-222-333</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</html>
